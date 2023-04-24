@@ -19,7 +19,7 @@
 }
 
 .app__aboutus-content_about {
-    flex: 1;
+    flex: 0.75;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -37,7 +37,7 @@
 }
 
 .app__aboutus-content_history {
-    flex: 1;
+    flex: 0.75;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -49,7 +49,7 @@
 .app__aboutus-content_about p,
 .app__aboutus-content_history p {
     margin: 2rem 0;
-    color: var(--color-grey);
+    color: rgb(5, 44, 5)
 }
 
 @media screen and (min-width: 2000px) {
